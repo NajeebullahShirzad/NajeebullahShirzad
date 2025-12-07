@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard for Insights - Project</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+   <nav class="navbar">
+     <div class="nav-container">
+    <button class="nav-toggle" aria-label="Toggle Navigation">☰</button>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../projects.html">Projects</a></li>
+      <li><a href="../about.html">About</a></li>
+      <li><a href="../resume.html">Resume</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+      <li><a href="../blog.html">Blog</a></li>
+    </ul>
+  </div>
+</nav>
+  </header>
+
+  <main class="container">
+    <section class="project-detail">
+      <h1>Redesigning Minard’s Map, Modern Storytelling of Napoleon’s 1812 Campaign</h1>
+    <br>
+     <h2>Project Overview</h2>
+  
+     <p>
+      This project reimagines Charles Joseph Minard’s famous 1869 visualization of Napoleon’s 1812 Russian campaign. 
+      While the original map is considered one of the greatest data visualizations of all time, 
+      this project modernizes it through interactive design, narrative structure, and user-centered storytelling. 
+      The redesign progresses across multiple iterations, with each stage enhancing clarity, emotional impact, and exploratory depth. 
+      The final result transforms a static 19th-century infographic into an immersive digital experience.
+    </p>
+    <br>
+    <img src="../images/minard.png" alt="Minard Original Image" class="project-detail-img">
+    <br> <br>
+     <h2>Iteration One: Interactive Data Visualization with Python Plotly Library</h2>
+  
+     <p>
+      In this iteration, the redesign shifts from simple charts to a fully interactive mapping experience using Python and the Plotly library.
+    </p>
+    <br>
+    <img src="../images/Iteration Two.png" alt="Iteration 1 Image" class="project-detail-img">
+    <br> <br>
+    <h3>Key Features:</h3>
+    <ul>
+      <li>troop-flow lines where line thickness represents the number of surviving soldiers.</li>
+      <li>Green paths for the advance toward Moscow and red paths for the retreat, mirroring Minard’s original storytelling but with clearer contrast and modern color accessibility.</li>
+      <li>City markers to anchor the route geographically and help users follow the sequence of events.</li>
+      <li>Integrated temperature data, aligned with the path of retreat to highlight the devastating cold and its correlation with troop loss.</li>
+      <li>User interactions including hovering, zooming, and panning, allowing audiences to explore specific segments of the march.</li>
+      <li>Spatial + temporal storytelling, making the decline of the army understandable and deeply visual.</li>
+    </ul>
+    <br>
+    <h3>Purpose of this Iteration</h3>
+    <p>
+      To modernize Minard’s static visual by adding interactivity, improving clarity, and enabling users to discover patterns at their own pace. This iteration turns the original into an analytical tool while preserving the historical essence.
+    </p>
+  <br>
+
+  <h2>Final Iteration: Full Narrative StoryMap Experience</h2>
+<p>
+The final iteration elevates the redesign into a complete storytelling experience using Knight Lab StoryMapJS.
+Rather than viewing the campaign all at once, the audience travels through the events step-by-step.
+</p>
+<br>
+<img src="../images/Minards storymap.png" alt="Final Iteration Image" class="project-detail-img">
+<a href="https://uploads.knightlab.com/storymapjs/82f57665afbccd4718fefa0f8b7ae6e5/minard-map/index.html" target="_blank" rel="noopener" class="btn">View StoryMap on Knight Lab</a>
+<br> <br>
+<h3> Key Features</h3>
+<ul>
+  <li>Narrative-driven design that unfolds city by city, matching historical chronology.</li>
+  <li>Integrated maps, text panels, and visual callouts that explain troop numbers, geographical challenges, and extreme winter temperatures.</li>
+  <li>Multi-layered data storytelling, combining:</li>
+  <li>Geographic coordinates</li>
+  <li>Troop strength at each location</li>
+  <li>Direction of movement</li>
+  <li>Temperature readings during the retreat</li>
+  <li>Emotional framing, emphasizing not just statistics but the human consequences of attrition, cold, and distance.</li>
+  <li>Accessible on the web, with a clean interface designed for easy exploration by students, historians, and visualization enthusiasts.</li>
+</ul>
+<br>
+<h3> Purpose of this Iteration</h3>
+<p>To transform analytical data into a compelling historical narrative that blends modern design, 
+  geography, and emotional storytelling. 
+  This iteration focuses on audience engagement and educational impact.
+</p>
+
+
+
+  <br>
+  <h2>Skills Demonstrated</h2>
+  <ul>
+    <li>Data visualization using Python Plotly Library</li>
+    <li>Narrative visualization (StoryMapJS)</li>
+    <li>Historical data interpretation</li>
+    <li>Information design & visual storytelling</li>
+    <li>Multi-iteration design refinement</li>
+    <li>User-centered presentation of complex data</li>
+  </ul>
+  <br>
+  <h2>Final Result</h2>
+  <p>
+    Through Iteration Two and the Final Iteration, this project evolves from an analytical visualization into a rich, 
+    interactive story. The map becomes more than a historical artifact, it becomes a modern digital narrative that helps audiences understand how geography, 
+    temperature, and time shaped one of history’s most devastating military campaigns.
+  </p>
+      <a href="../projects.html" class="btn">Back to Projects</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Najeeb Shirzad. All rights reserved.</p>
+    <div class="social">
+      <a href="https://github.com/NajeebullahShirzad/" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/najeeb-shirzad-b3a713172/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="#" target="_blank" rel="noopener">Twitter</a>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
